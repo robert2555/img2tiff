@@ -112,5 +112,6 @@ func main() {
 		fmt.Println("Success! New file is a valid tiff!")
 	} else {
 		fmt.Println("Tiff file content is not tiff! Conversion maybe failed.")
+		os.Exit(1)
 	}
 }
